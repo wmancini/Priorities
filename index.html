@@ -1,5 +1,6 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,60 +8,61 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
-    <title>City of Tempe Government Indicators Page</title>
+    <title>City of Tempe Strategic Priorities</title>
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Lusitana:400,700|Montserrat:400,700|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
     <style>
-        .col-xs-15, .col-sm-15, .col-md-15, .col-lg-15
-        {
+        .col-xs-15,
+        .col-sm-15,
+        .col-md-15,
+        .col-lg-15 {
             position: relative;
             min-height: 1px;
             padding-right: 10px;
             padding-left: 10px;
         }
-        
-        .col-xs-15
-        {
+        .col-xs-15 {
             width: 50%;
             float: left;
         }
-        
-        @media (min-width: 768px)
-        {
-            .col-sm-15
-            {
+        @media (min-width: 768px) {
+            .col-sm-15 {
                 width: 50%;
                 float: left;
             }
         }
-        
-        @media (min-width: 992px)
-        {
-            .col-md-15
-            {
+        @media (min-width: 992px) {
+            .col-md-15 {
                 width: 20%;
                 float: left;
             }
         }
-        
-        @media (min-width: 1200px)
-        {
-            .col-lg-15
-            {
+        @media (min-width: 1200px) {
+            .col-lg-15 {
                 width: 20%;
                 float: left;
             }
         }
-        
-        .btn-primary > a
-        {
+        .btn-primary > a {
             color: #f2f2f2;
         }
+        .div_hover {}
+        
+@media (max-width: 992px) {
+    .input-group-btn > .btn {
+        margin-bottom: 20px !important;
+        
+    }
+.input-group .form-control {
+  margin-bottom: 20px !important;
+}
+}
     </style>
-    <a href="index.html">index.html</a>
+    <a href="index.html"></a>
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -69,6 +71,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
     <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -76,20 +79,27 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
-                    </spa>nb
+                    </span>
                 </button>
                 <a class="navbar-brand" href="index.html" title="City of Tempe">CITY OF TEMPE</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html" alt="Home" title="Home">HOME</a></li>
-                    <li><a href="priorities.html" alt="Strategic Priorities" title="Strategic Priorities">
-                        STRATEGIC PRIORITIES</a></li>
-                    <li><a href="#" title="Goals">GOALS</a></li>
-                    <li><a href="#" alt="Indicators" title="Indicators">INDICATORS</a></li>
+                    <li class="active"><a href="index.html" alt="Home" title="Home">HOME</a>
+                    </li>
+                    <li><a href="#" alt="Strategic Priorities" title="Strategic Priorities">
+                        STRATEGIC PRIORITIES</a>
+                    </li>
+                    <li><a href="#" title="Goals">MEASURES</a>
+                    </li>
+                    <li><a href="#" alt="Indicators" title="Indicators">INDICATORS</a>
+                    </li>
                     <!--<li><a href="#" alt="Dashboards">DASHBOARDS</a></li>-->
-                    <li><a data-toggle="modal" data-target="#myModal" href="mailto:seth_lewis@tempe.gov">
-                        <i class="fa fa-envelope-o"></i></a></li>
+                    <li>
+                        <a data-toggle="modal" data-target="#myModal" href="mailto:seth_lewis@tempe.gov">
+                            <i class="fa fa-envelope-o"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -98,11 +108,27 @@
     <div id="headerwrap">
         <div class="container">
             <div class="row centered">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-10 col-lg-offset-1">
                     <h1>
-                        <b>The Tempe Strategic Priorities Project</b></h1>
+                        <b>CITY OF TEMPE <br>STRATEGIC PRIORITIES</b></h1>
+
                     <h2>
-                        Connecting Residents with Their Government</h2>
+                        Connecting Residents with Their Government
+                    </h2>
+                    <br/>
+
+                    <div class="row">
+                        <div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="search-query form-control" placeholder="Search datasets" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="button">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- row -->
@@ -113,58 +139,113 @@
     <!-- PORTFOLIO SECTION -->
     <div id="dg">
         <div class="container">
+
             <h4>
                 BROWSE OUR STRATEGIC PRIORITIES</h4>
             <hr />
             <div class="row centered">
                 <!-- First Chart -->
-                <div class="col-lg-15 col-sm-15 col-xs-6">
-                    <a href="safe.html"><i class="fa fa-legal fa-3x"></i>
-                        <br>
-                        <br />
-                        <p>
-                            <b>Safe and Secure Communities</b></p>
+                <div class="col-lg-15 col-sm-15 col-xs-15">
+                    <a href="#">
+                        <div class="box box-hover-color">
+                            <figure>
+                                <img src="assets/img/Safefire.jpg" style="width:205px;height:90px:">
+
+                                <figure2>
+                                    <img src="assets/img/Safelogosm.png" style="width:28px;height:28px">
+                                </figure2>
+
+                                <figure2caption>Safe & Secure Communities</figure2caption>
+                            </figure>
+                        </div>
                     </a>
                 </div>
                 <!-- /col-lg-3 -->
                 <!-- Second Chart -->
-                <div class="col-lg-15 col-sm-15 col-xs-6">
-                    <a href="connections.html"><i class="fa fa-link fa-3x"></i>
-                        <br />
-                        <br />
-                        <p>
-                            <b>Strong Community Connections</b></p>
-                    </a>
+                <div class="col-lg-15 col-sm-15 col-xs-15">
+                    <a href="#">
+                        <a href="#">
+                            <div class="box box-hover-color">
+                                <figure>
+                                    <img src="assets/img/strongcommunity2.jpg" style="width:205px;height:90px:">
+
+                                    <figure2>
+                                        <img src="assets/img/Stronglogosm.png" style="width:28px;height:28px">
+                                    </figure2>
+
+                                    <figure2caption>Strong Community Connections</figure2caption>
+
+                                </figure>
+
+                            </div>
+
+                            <br />
+                        </a>
                 </div>
                 <!-- /col-lg-3 -->
                 <!-- Third Chart -->
-                <div class="col-lg-15 col-sm-15 col-xs-6">
-                    <a href="enhanced.html"><i class="fa fa-legal fa-3x"></i>
+                <div class="col-lg-15 col-sm-15 col-xs-15">
+                    <a href="#">
+                        <div class="box box-hover-color">
+                            <figure>
+                                <img src="assets/img/qualitykiwanis2.jpg" style="width:205px;height:90px:">
+
+                                <figure2>
+                                    <img src="assets/img/qualitylogosm.png" style="width:28px;height:28px">
+                                </figure2>
+
+                                <figuresinglecaption>
+
+                                    Quality of Life</figuresinglecaption>
+                            </figure>
+
+                        </div>
+
                         <br />
-                        <br />
-                        <p>
-                            <b>Enhancing Quality of Life for All Tempe Residents</b></p>
                     </a>
                 </div>
                 <!-- /col-lg-3 -->
                 <!-- Fourth Chart -->
-                <div class="col-lg-15 col-sm-15 col-xs-6">
-                    <a href="sustainable.html"><i class="fa fa-line-chart fa-3x"></i>
+                <div class="col-lg-15 col-sm-15 col-xs-15">
+                    <a href="#">
+                        <div class="box box-hover-color">
+                            <figure>
+                                <img src="assets/img/sustainsolor.jpg" style="width:205px;height:90px:">
+
+                                <figure2>
+                                    <img src="assets/img/sustainlogosm.png" style="width:28px;height:28px">
+                                </figure2>
+
+                                <figure2caption>Sustainable Growth & Development</figure2caption>
+                            </figure>
+
+                        </div>
+
+
                         <br />
-                        <br />
-                        <p>
-                            <b>Sustainable Growth and Development </b>
-                        </p>
                     </a>
                 </div>
                 <!-- /col-lg-3 -->
                 <!-- Fifth Chart -->
-                <div class="col-lg-15 col-sm-15">
-                    <a href="financial.html"><i class="fa fa-dollar fa-3x"></i>
+                <div class="col-lg-15 col-sm-15 col-xs-15">
+                    <a href="#">
+                        <div class="box box-hover-color">
+                            <figure>
+                                <img src="assets/img/financialblue.jpg" style="width:205px;height:90px:">
+
+                                <figure2>
+                                    <img src="assets/img/financiallogosm.png" style="width:28px;height:28px">
+                                </figure2>
+
+                                <figure2caption>Financial Stability
+                                    <br>& Vitality</figure2caption>
+
+                            </figure>
+
+                        </div>
+
+
                         <br />
-                        <br />
-                        <p>
-                            <b>Maintaining Financial Stability and Vitality</b></p>
                     </a>
                 </div>
                 <!-- /col-lg-3 -->
@@ -175,50 +256,111 @@
             <hr />
             <div class="row centered">
                 <!-- First Chart -->
-                <div class="col-lg-15 col-sm-15 col-xs-6">
-                    <a href="theme_civicVitality.html">
-                        <img class="img" src="assets/img/vitality.jpg" width="170" height="100" alt="civic vitality">
+                <div class="col-lg-15 col-sm-15 col-xs-15">
+                    <a href="#">
+                        <div class="box box-hover-color">
+                            <figure>
+                                <img src="assets/img/access_orange.png" style="width:205px;height:90px:">
+
+                                <figure2>
+                                    <img src="assets/img/icon_holder.png" style="width:28px;height:28px">
+
+                                </figure2>
+
+                                <figuresinglecaption>Accessibility</figuresinglecaption>
+
+                            </figure>
+
+                        </div>
+
                         <br />
-                        <br />
-                        <p>
-                            <b>Civic Vitality</b></p>
+
+
                     </a>
                 </div>
                 <!-- /col-lg-3 -->
                 <!-- Second Chart -->
-                <div class="col-lg-15 col-sm-15 col-xs-6">
-                    <img class="img" src="assets/img/commdev.jpg" width="170" height="100" alt="community development">
-                    <br />
-                    <br />
-                    <p>
-                        <b>Community Development</b></p>
+                <div class="col-lg-15 col-sm-15 col-xs-15">
+                    <a href="#">
+                        <div class="box box-hover-color">
+                            <figure>
+                                <img src="assets/img/enviro_orange.png" style="width:205px;height:90px:">
+                                <figure2>
+                                    <img src="assets/img/icon_holder.png" style="width:28px;height:28px">
+                                </figure2>
+
+                                <figuresinglecaption>Environment</figuresinglecaption>
+
+                            </figure>
+
+                        </div>
+
+                        <br />
+
+                    </a>
                 </div>
                 <!-- /col-lg-3 -->
                 <!-- Third Chart -->
-                <div class="col-lg-15 col-sm-15 col-xs-6">
-                    <img class="img" src="assets/img/bikepaths.jpg" width="170" height="100" alt="parks, walkability">
-                    <br />
-                    <br />
-                    <p>
-                        <b>Parks & Walkability</b></p>
+                <div class="col-lg-15 col-sm-15 col-xs-15">
+                    <a href="#">
+                        <div class="box box-hover-color">
+                            <figure>
+                                <img src="assets/img/engagement_orange.png" style="width:205px;height:90px:">
+
+                                <figure2>
+                                    <img src="assets/img/icon_holder.png" style="width:28px;height:28px">
+                                </figure2>
+
+                                <figuresinglecaption>Engagement</figuresinglecaption>
+                            </figure>
+
+                        </div>
+
+                        <br />
+
+                    </a>
                 </div>
                 <!-- /col-lg-3 -->
                 <!-- Fourth Chart -->
-                <div class="col-lg-15 col-sm-15 col-xs-6">
-                    <img class="img" src="assets/img/police.jpg" width="170" height="100" alt="public, safety">
-                    <br />
-                    <br />
-                    <p>
-                        <b>Public Safety</b></p>
+                <div class="col-lg-15 col-sm-15 col-xs-15">
+                    <a href="#">
+                        <div class="box box-hover-color">
+                            <figure>
+                                <img src="assets/img/activities_orange.png" style="width:205px;height:90px:">
+
+                                <figure2>
+                                    <img src="assets/img/icon_holder.png" style="width:28px;height:28px">
+                                </figure2>
+
+                                <figuresinglecaption>Activities</figuresinglecaption>
+                            </figure>
+
+                        </div>
+
+                        <br />
+
+                    </a>
                 </div>
                 <!-- /col-lg-3 -->
                 <!-- Fifth Chart -->
-                <div class="col-lg-15 col-sm-15 col-xs-12">
-                    <img class="img" src="assets/img/dam.jpg" width="170" height="100" alt="public, works">
-                    <br />
-                    <br />
-                    <p>
-                        <b>Public Works</b></p>
+                <div class="col-lg-15 col-sm-15 col-xs-15">
+                    <a href="#">
+                        <div class="box box-hover-color">
+                            <figure>
+                                <img src="assets/img/wellbeing_orange.png" style="width:205px;height:90px:">
+
+                                <figure2>
+                                    <img src="assets/img/icon_holder.png" style="width:28px;height:28px">
+                                </figure2>
+
+                                <figuresinglecaption>Wellbeing</figuresinglecaption>
+                            </figure>
+
+                        </div>
+
+                        <br />
+
+                    </a>
                 </div>
                 <!-- /col-lg-3 -->
             </div>
@@ -231,53 +373,74 @@
         <div class="container">
             <div class="col-lg-3 col-md-3">
                 <h4>
-                    About the City of Tempe</h4>
+                    ABOUT THE CITY OF TEMPE</h4>
+                <br>
                 <p>
-                    <a href="#">FAQs</a></p>
+                    <a href="#">FAQs</a>
+                </p>
                 <p>
-                    <a href="mailto:gis@tempe.gov">Contact Us</a></p>
+                    <a href="mailto:gis@tempe.gov">Contact Us</a>
+                </p>
                 <p>
-                    <a href="http://www.tempe.gov">Click to Learn About Tempe 2030</a></p>
+                    <a href="http://www.tempe.gov">Learn About Tempe 2030</a>
+                </p>
                 <p>
-                    <a href="#">Reports</a></p>
+                    <a href="#">Reports</a>
+                </p>
             </div>
             <div class="col-lg-3 col-md-3">
                 <h4>
-                    Strategic Priorities</h4>
+                    STRATEGIC PRIORITIES</h4>
+                <br>
                 <p>
-                    <a href="safe.html">Safe and Secure Communities</a></p>
+                    <a href="#">Safe and Secure Communities</a>
+                </p>
                 <p>
-                    <a href="connections.html">Strong Community Connections</a></p>
+                    <a href="#">Strong Community Connections</a>
+                </p>
                 <p>
-                    <a href="enhanced.html">Enhanced Quality of Life</a></p>
+                    <a href="#">Enhanced Quality of Life</a>
+                </p>
                 <p>
-                    <a href="sustainable.html">Sustainable Growth and Development</a></p>
+                    <a href="#">Sustainable Growth & Development</a>
+                </p>
                 <p>
-                    <a href="financial.html">Long-Term Financial Health</a></p>
+                    <a href="#">Long-Term Financial Health</a>
+                </p>
             </div>
             <div class="col-lg-3 col-md-3">
                 <h4>
-                    Crosscut Themes</h4>
+                    CROSSCUT THEMES</h4>
+                <br>
                 <p>
-                    <a href="theme_civicVitality.html">Civic Vitality</a></p>
+                    <a href="#">Accessibility</a>
+                </p>
                 <p>
-                    <a href="#">Community Development</a></p>
+                    <a href="#">Environment</a>
+                </p>
                 <p>
-                    <a href="#">Parks and Walkability</a></p>
+                    <a href="#">Engagement</a>
+                </p>
                 <p>
-                    <a href="#">Public Safety</a></p>
+                    <a href="#">Activities</a>
+                </p>
                 <p>
-                    <a href="#">Public Works</a></p>
+                    <a href="#">Wellbeing</a>
+                </p>
             </div>
             <div class="col-lg-3 col-md-3">
                 <h4>
-                    Data & Visualizations</h4>
+                    DATA & VISUALIZATIONS</h4>
+                <br>
                 <p>
-                    <a href="#">Maps</a></p>
+                    <a href="#">Maps</a>
+                </p>
                 <p>
-                    <a href="#">Charts</a></p>
+                    <a href="#">Charts</a>
+                </p>
                 <p>
-                    <a href="#">Download Datasets</a></p>
+                    <a href="#">Download Datasets</a>
+                </p>
             </div>
         </div>
         <!-- container -->
@@ -287,8 +450,10 @@
     <div id="f">
         <div class="container">
             <div class="row centered">
-                <a href="http://www.twitter.com/tempegov"><i class="fa fa-twitter"></i></a><a href="http://www.facebook.com/tempegov">
-                    <i class="fa fa-facebook"></i></a><a href="http://www.tempe.gov"><i class="fa fa-dribbble">
+                <a href="http://www.twitter.com/tempegov"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.facebook.com/tempegov">
+                    <i class="fa fa-facebook"></i>
+                </a><a href="http://www.tempe.gov"><i class="fa fa-dribbble">
                     </i></a>
             </div>
             <!-- row -->
@@ -298,8 +463,7 @@
     <!-- Footer -->
     <!-- MODAL FOR CONTACT -->
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -312,15 +476,13 @@
                     <div class="row centered">
                         <!--<p>We are available 24/7, so don't hesitate to contact us.</p>-->
                         <p>
-                            City of Tempe<br />
-                            Office of Enterprise Data & Analytics
-                            <br />
-                            480-350-8781<br />
-                            gis@tempe.gov
+                            City of Tempe
+                            <br /> Office of Enterprise Data & Analytics
+                            <br /> 480-350-8781
+                            <br /> gis@tempe.gov
                         </p>
                         <div id="mapwrap">
-                            <iframe height="300" width="100%" frameborder="0" scrolling="no" marginheight="0"
-                                marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=33.41,-111.95&amp;spn=67.34552,156.972656&amp;z=12&amp;output=embed">
+                            <iframe height="300" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=33.41,-111.95&amp;spn=67.34552,156.972656&amp;z=12&amp;output=embed">
                             </iframe>
                         </div>
                     </div>
@@ -341,4 +503,5 @@
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
 </body>
+
 </html>

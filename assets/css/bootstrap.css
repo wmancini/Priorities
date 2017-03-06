@@ -782,7 +782,7 @@ pre code {
 
 .container {
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 015px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1420,7 +1420,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1200px;
   }
   .col-lg-1,
   .col-lg-2,
